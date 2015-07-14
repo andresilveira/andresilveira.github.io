@@ -9,6 +9,8 @@ github_username: andresilveira
 linkedin_username: andresilveirah
 stackoverflow_username: "andré-herculano"
 about: "/about"
+analytics: true
+analytics_userid: UA-65138243-1
 comments: true
 disqus_forum_name: codebikeandmore
 

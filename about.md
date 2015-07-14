@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I believe in a world where computers empower people's abilities, where humans are pleased to use computer applications rather then being annoyed by them.
+By crafting thoughtful- well tested - user focused application, I am able to put my beliefs into action and deliver value to people, saving them time and money ([which is kinda the same according to B. Franklin](https://en.wikipedia.org/wiki/Time_Is_Money){:target="_blank"}).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+![Marthin Luther King]({{site.base_url}}/assets/martin_luther_king.jpg)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[&larr; Back Home]({{site.base_url}}/)

@@ -1,0 +1,12 @@
+---
+title: 'BONUS BOOK: Confident Ruby'
+date: 2015-05-25 18:21:19.000000000 +02:00
+categories: []
+---
+<p><a href="https://codebikeandmore.files.wordpress.com/2015/05/confident-ruby-book-cover-e1432574536819.jpg"><img class="aligncenter wp-image-13 size-full" src="assets/confident-ruby-book-cover-e1432574536819.jpg" alt="Confident Ruby book cover" width="400" height="518" /></a>Yes, I know I said I'd start with the 10 most upvoted books in the <a title="The next 10 books" href="https://codebikeandmore.wordpress.com/2015/05/25/the-next-10-books/" target="_blank">previous post</a> but I just finished <a title="Confident Ruby webpage" href="http://www.confidentruby.com" target="_blank">Confident Ruby</a> by Avdi Grimm. I found it to be really interesting mainly because of its goal.</p>
+<h3>Bring back the joy of programming in on going projects</h3>
+<p>Yep, I'm sure we all already experienced the feeling of "nah this feature/project is driving me nuts :/ ". The author makes an analogy between a application's code and a story in a sense that our code should tell a coherent narrative rather than a pile of <em>nil </em>checking and conditionals here and there.</p>
+<p>The book is structured as a (easy to apply) patterns catalog. And, in turn, those patterns are can be used in one or more of the four stages of a method: <strong>gathering inputs, performing work, deliver response and handling errors</strong>.</p>
+<p>Here are a short list of the ones I could apply the most and also made my life easier:</p>
+<h4>Always built in conversors on 'boundary' methods</h4>
+<p>Methods that receive inputs from outside its class should take an extra care about the inputs it accepts without being too obsessive (<a title="Principle of Robustness" href="http://en.wikipedia.org/wiki/Robustness_principle" target="_blank">be conservative in what you send, be liberal in what you accept</a>). So, time to pull out that old friends <code>#to_s</code> and <code>#to_i</code>, for example, and use them whenever you need a input to behave like a String or a Integer in a method.</p>

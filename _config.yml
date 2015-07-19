@@ -4,7 +4,7 @@ email: andresilveirah@gmail.com
 description: > 
   My personal babbling of every now and then.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://andresilveira.github.io" # TODO: change to the custom domain
+url: "http://codebikeandmore.com"
 author: "André Herculano"
 about: "/about"
 analytics: true

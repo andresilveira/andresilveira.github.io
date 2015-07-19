@@ -5,15 +5,25 @@ description: >
   My personal babbling of every now and then.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://andresilveira.github.io" # TODO: change to the custom domain
-github_username: andresilveira
-linkedin_username: andresilveirah
-stackoverflow_username: "andré-herculano"
 author: "André Herculano"
 about: "/about"
 analytics: true
 analytics_userid: UA-65138243-1
 comments: true
 disqus_forum_name: codebikeandmore
+social_links:
+  - 
+    name: github
+    url: "https://github.com/andresilveira"
+    icon: "github.svg"
+  - 
+    name: linkedin
+    url: "https://de.linkedin.com/in/andresilveirah"
+    icon: "linkedin.svg"
+  - 
+    name: stackoverflow
+    url: "http://stackoverflow.com/users/1244883/andré-herculano"
+    icon: "stackoverflow.svg"
 
 defaults:
   -

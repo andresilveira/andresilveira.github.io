@@ -24,7 +24,7 @@ I started working as a developer when I was still coursing my bachelor and soon 
 
 ### It's all about learning and applying.
 
-Much like the TDD (test driven development) jingle, "Red, Green, Refactor". I realized I just had to keep learning from the brilliant gurus, applying it on my daily work and improve. Somehow I stumbled upon this question on StackOverflow: [What is the single most influential book every programmer should read?](http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read) That was when I decided to buy the 10 top ones, read them and write a a little bit about it. To the present point, the ten top ones are:
+Much like the TDD (test driven development) jingle, "Red, Green, Refactor". I realized I just had to keep learning from the brilliant gurus, applying it on my daily work and improve. Somehow I stumbled upon this question on StackOverflow: [What is the single most influential book every programmer should read?](http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read) That was when I decided to buy the 10 top ones, read them and write a little bit about it. To the present point, the ten top ones are:
 
 <ol>
 <li><strong>Code Complete</strong> (2nd edition) by Steve McConnell</li>

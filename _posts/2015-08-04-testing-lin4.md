@@ -1,6 +1,6 @@
 ---
 categories: code
-img: "/assets/confident_ruby_book_thumb_3.jpg"
+img: "/assets/confident_ruby_book_thumb_4.jpg"
 excerpt: A list with the 10 most influential books for computer science by .
 ---
 

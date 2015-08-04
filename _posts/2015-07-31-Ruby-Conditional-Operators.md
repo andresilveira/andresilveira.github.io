@@ -1,3 +1,7 @@
+---
+categories: code
+---
+
 Without looking at the answer, think for a second what would be the values of `a` and `b` in the code bellow.
 
 {% highlight ruby %}

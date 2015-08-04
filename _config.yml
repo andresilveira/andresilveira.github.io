@@ -11,6 +11,7 @@ analytics: true
 analytics_userid: UA-65138243-1
 comments: true
 disqus_forum_name: codebikeandmore
+logo: "/assets/martin_luther_king.jpg"
 social_links:
   - 
     name: github

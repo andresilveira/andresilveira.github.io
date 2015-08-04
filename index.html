@@ -11,9 +11,16 @@ layout: default
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+        <h2 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <p class="post-excerpt">
+          {% if post.excerpt %}
+            {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+          {% else %}
+            {{ site.description }}
+          {% endif %}
+         </p>
       </li>
     {% endfor %}
   </ul>

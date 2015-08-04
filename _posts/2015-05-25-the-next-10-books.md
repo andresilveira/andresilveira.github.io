@@ -3,6 +3,8 @@ title: The next 10 books
 date: 2015-05-25 15:45:28.000000000 +02:00
 categories: code
 tags: [the-10-books]
+img: /assets/cats_like_to_read.jpeg
+excerpt: A list with the 10 most influential books for computer science by StackOverflow users.
 ---
 
 ![]({{ site.baseurl }}/assets/cats_like_to_read.jpeg){:alt="Cats like to read"}

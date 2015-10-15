@@ -35,8 +35,10 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  display: block;
+  max-width: 100%;
+  vertical-align: middle;
+  margin: 0 auto;
 }
 
 /**
@@ -177,7 +179,7 @@ pre {
             fill: $grey-color;
         }
     }
-    
+
     &:hover {
       > svg {
         path {
@@ -196,3 +198,11 @@ pre {
 .back-home {
   display: block;
 }
+
+table {
+  width: 100%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: $grey-color-light;
+ }

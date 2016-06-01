@@ -39,6 +39,3 @@ defaults:
       type: posts
     values:
       layout: post
-
-# Build settings
-markdown: kramdown

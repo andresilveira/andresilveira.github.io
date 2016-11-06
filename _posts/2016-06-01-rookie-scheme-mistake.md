@@ -2,8 +2,9 @@
 title: Rookie Scheme Mistake
 date: 2016-06-01 09:45:28.000000000 +02:00
 categories: code
+tags: code scheme lisp functional-programming
 img: /assets/scheme-language-logo.gif
-excerpt: "; application: not a procedure;"
+excerpt: "<code>; application: not a procedure;</code>"
 ---
 
 ![]({{ site.baseurl }}/assets/scheme-language-logo.gif){:alt="Rookie Scheme Mistake"}

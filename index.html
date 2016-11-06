@@ -16,7 +16,7 @@ layout: default
         </h2>
         <p class="post-excerpt">
           {% if post.excerpt %}
-            {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+            {{ post.excerpt }}
           {% else %}
             {{ site.description }}
           {% endif %}

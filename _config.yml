@@ -1,7 +1,7 @@
 # Site settings
 title: "Code, Bike & More"
 email: andresilveirah@gmail.com
-description: > 
+description: >
   My personal babbling of every now and then.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://codebikeandmore.com"
@@ -13,19 +13,18 @@ comments: true
 disqus_forum_name: codebikeandmore
 logo: "/assets/martin_luther_king.jpg"
 social_links:
-  - 
+  -
     name: github
     url: "https://github.com/andresilveira"
     icon: "github.svg"
-  - 
+  -
     name: linkedin
     url: "https://de.linkedin.com/in/andresilveirah"
     icon: "linkedin.svg"
-  - 
+  -
     name: stackoverflow
     url: "http://stackoverflow.com/users/1244883/andré-herculano"
     icon: "stackoverflow.svg"
-
 defaults:
   -
     scope:
@@ -39,3 +38,15 @@ defaults:
       type: posts
     values:
       layout: post
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1

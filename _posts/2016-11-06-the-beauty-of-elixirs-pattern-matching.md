@@ -102,8 +102,13 @@ Did you notice what's happening here? We have introduced (yet) one more `_count`
 
 Isn't it awesome? We embedded the conditional checking right into the functions signatures!
 
+### Update 09 Nov 2016
+[@dcarral](https://github.com/dcarral) is a awesome colleague from Babbel and he was patient enough to review this post. And here are his suggestions (apart from typos):
+* Maybe the usage of the term *guard clause* is not correct in the context I've mentioned. Oftentimes they are represented by some kind of conditional **inside** the function itself rather than outside. I still believe this is just an implementation detail and the idea of guard clause is to "guard" you from some undesirable result (in case of recursion, never leaving the recursion chain).
+* [A link to pattern matching from Elixir's documentation](http://elixir-lang.org/crash-course.html#pattern-matching). I don't know if pattern matching is the exact term for what I meant (maybe function matching is a better definition).
+* A much shorter way to count occurrences in ruby would be `"AAGCTA".count("A")` (well done 👍)
 ## Conclusion
 
-Later on I've checked other's solutions and they mostly use `Enum.reduce`, `Enum.count` or something similar. But since I don't have any knowledge of the built in modules, I'm quite happy with that approach (using no more than functions). There's the drawback of somewhat *polluting* the module's implementation with several functions with apparently the same signature (`_count`) but I think this is a minor issue when we look on how simple they are to read and (even better) to test.
+Later on I've checked others' solutions and they mostly use `Enum.reduce`, `Enum.count` or something similar. But since I don't have any knowledge of the built in modules, I'm quite happy with that approach (using no more than functions). There's the drawback of somewhat *polluting* the module's implementation with several functions with apparently the same signature (`_count`) but I think this is a minor issue when we look on how simple they are to read and (even better) to test.
 
 Are you banging your head against functional programming as well? Have you tried [Elixir](http://elixir-lang.org/)? Do you find this whole thing bullshit? **Let me know what you think!**

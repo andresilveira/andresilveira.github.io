@@ -104,12 +104,14 @@ Isn't it awesome? We embedded the conditional checking right into the functions 
 
 ### Update 09 Nov 2016
 [@dcarral](https://github.com/dcarral) is a awesome colleague from Babbel and he was patient enough to review this post. And here are his suggestions (apart from typos):
+
 * Maybe the usage of the term *guard clause* is not correct in the context I've mentioned. Oftentimes they are represented by some kind of conditional **inside** the function itself rather than outside. I still believe this is just an implementation detail and the idea of guard clause is to "guard" you from some undesirable result (in case of recursion, never leaving the recursion chain).
 * [A link to pattern matching from Elixir's documentation](http://elixir-lang.org/crash-course.html#pattern-matching). I don't know if pattern matching is the exact term for what I meant (maybe function matching is a better definition).
 * A much shorter way to count occurrences in ruby would be `"AAGCTA".count("A")` (well done 👍)
 
 ### Update 15 Nov 2016
 [@gabrielelana](https://github.com/gabrielelana) was really kind reviewing [my submission on Exercism](http://exercism.io/submissions/ad4fca9cc9294fed9cbefcacaa123c71) and I've made two changes:
+
 * use the same name for the "public" and "private" functions `count` (instead of `_count`);
 * instead of `_count([head|tail], nucleotide = head, acumulator)` we can define the function as `_count([nucleotide|tail], nucleotide, acumulator)`. This is very interesting for me. The function will only be called if the head of the list (in this case named `nucleotide`) is equal to the second parameter (also called `nucleotide`).
 

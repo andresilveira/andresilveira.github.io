@@ -1,6 +1,6 @@
 ---
 title: The 6 Tips About Names
-date: 2015-10-15 09:45:28.000000000 +02:00
+date: 2015-10-15 09:45:28
 categories: code
 tags: [clean-coders]
 img: /assets/shortening-all-the-names.jpg

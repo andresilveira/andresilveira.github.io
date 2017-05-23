@@ -1,6 +1,6 @@
 ---
 title: The next 10 books
-date: 2015-05-25 15:45:28.000000000 +02:00
+date: 2015-05-25 15:45:28
 categories: code
 tags: [the-10-books]
 img: /assets/cats_like_to_read.jpeg
@@ -13,11 +13,11 @@ excerpt: A list with the 10 most influential books for computer science by Stack
 Justin Weiss has two great posts about learning programming.
 
 * [How to Predict the Future of Programming](http://www.justinweiss.com/blog/2015/07/28/how-to-predict-the-future-of-programming/)
-  
+
   > If you want to lead the technology curve, start investigating whatever Martin Fowler was writing about a decade ago.[^1]
 
 * [Where Are All the Intermediate Rails Resources?](http://www.justinweiss.com/blog/2014/08/11/where-are-all-the-intermediate-rails-resources/)
- 
+
    > For an intermediate developer, learning is more focused. Instead of knowing a little about a lot, you’ll learn a lot about a little.
 
 ---

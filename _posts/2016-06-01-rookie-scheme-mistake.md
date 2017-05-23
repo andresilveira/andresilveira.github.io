@@ -1,6 +1,6 @@
 ---
 title: Rookie Scheme Mistake
-date: 2016-06-01 09:45:28.000000000 +02:00
+date: 2016-06-01 09:45:28
 categories: code
 tags: code scheme lisp functional-programming
 img: /assets/scheme-language-logo.gif

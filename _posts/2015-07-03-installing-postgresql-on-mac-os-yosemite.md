@@ -1,6 +1,6 @@
 ---
 title: Installing PostgreSQL on Mac OS Yosemite
-date: 2015-07-03 06:41:42.000000000 +02:00
+date: 2015-07-03 06:41:42
 categories: code
 excerpt: Solving a common problem when installing PostgreSQL on Mac.
 ---

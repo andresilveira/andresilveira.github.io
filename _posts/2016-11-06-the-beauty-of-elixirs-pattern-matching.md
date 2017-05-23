@@ -1,6 +1,6 @@
 ---
 title: The beauty of Elixir's pattern matching.
-date: 2016-11-06 09:45:28.000000000 +02:00
+date: 2016-11-06 09:45:28
 categories: code
 tags: code functional-programming elixir
 img: /assets/elixir-purple-dna.gif

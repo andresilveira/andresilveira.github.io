@@ -9,6 +9,8 @@ excerpt: It's being a while I don't work with compiled languages and I forgot El
 
 **TL;DR;** Elixir is a compiled language and as such, every information needed for the code to compile needs to be available at, well..., _compilation_ time. If your application depends on the configuration to run, you'll need to make it available before releasing it.
 
+![]({{ site.baseurl }}/assets/env-vars-why-you-no-work.jpg){:alt="Env vars why you no work"}
+
 ## The way to env vars
 
 I'm writing a small, barebones, web services using [elixir-plug][08801380] and here are the main mistakes I made trying to specify the Router's HTTP port using environment variables

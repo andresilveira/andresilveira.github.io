@@ -13,6 +13,9 @@ layout: default
 </div>
 <a href="{{site.base_url}}/" class="back-home">&larr; Back Home</a>
 <br>
+<div style="position: relative; margin: 0 auto; width: 300px;">
+{% include subscribe_form.html %}
+</div>
 {% if site.comments %}
     {% include comments.html %}
 {% endif %}
